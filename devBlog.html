@@ -2,14 +2,14 @@
 <html>
 
 	<head>
-		<title>Title Goes Here</title>
+		<title>S-Touch Home</title>
 		<p>Test</p>
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<script src="js/jquery-1.10.2.js"></script>
 	</head>
 	<body>
 <!--Navbar Start-->
-		<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -20,10 +20,10 @@
           <a class="brand" href="./index.html">S-Touch</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active">
+              <li class="">
                 <a href="./index.html">Home</a>
               </li>
-              <li class="">
+              <li class="active">
                 <a href="./devBlog.html">Dev Blog</a>
               </li>
               <li class="">
@@ -44,11 +44,6 @@
       </div>
     </div>
 <!--Navbar End-->
-<!--Background Gradient thingy starts here- how should we use this image?-->
-	<div class="">
-		<img src="images/violet-gradient-desktop-125441.jpg" height=5>
-	</div>
-<!--Gradient thingy goes away here-->
 <!--Jumbotron body starts here. (jumbotron logo is jumbo)-->
 	<div class="jumbotron">
         <h1>All in one, Once and for all!</h1>
@@ -56,56 +51,20 @@
         <a class="btn btn-large btn-success" href="#">Support Now!</a>
       </div>
 <!--Jumbotron body ends here-->
-    <div class="row-fluid">
-		<div class="span4">
-			<h2>
-				The Team
-			</h2>
-			<p>
-				The Dreaming Eagles are a group of dedicated engineering students from Southern California. 
-			</p>
-			<p>
-				<a class="btn" href="#">Read the dev blog! »</a>
-			</p>
-		</div>
-		<div class="span4">
-			<h2>
-				The Device
-			</h2>
-			<p>
-				Tablet, 3D scanner, SpaceBall, Joystick, you can even use it to pick your nose! (though we are not testing the last one). The capabilities of the S-Touch could be endless, but we can only do so much. (something else here)
-			</p>
-			<p>
-				<a class="btn" href="#">View details »</a>
-			</p>
-		</div>
-		<div class="span4">
-			<h2>
-				You can help!
-			</h2>
-			<p>
-				The Dream Eagle team wants to bring this project to fruition, but we can only do that with your support!
-			</p>
-			<p>
-				<a class="btn" href="#">View details »</a>
-			</p>
-		</div>
+	<div class="donate_button">
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+					<input type="hidden" name="cmd" value="_donations">
+					<input type="hidden" name="business" value="californiadreamingeagles@gmail.com">
+					<input type="hidden" name="lc" value="US">
+					<input type="hidden" name="item_name" value="California Dreaming Eagles">
+					<input type="hidden" name="no_note" value="0">
+					<input type="hidden" name="currency_code" value="USD">
+					<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+					<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>
 	</div>
 	<div class="footer">
-		<div class="navbar navbar-inverse navbar-fixed-bottom">
-     	<div class="navbar-inner">
-        	<div class="container">
-          		<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            	<span class="icon-bar"></span>
-            	<span class="icon-bar"></span>
-            	<span class="icon-bar"></span>
-          		</button>
-          		<a class="brand" href="./index.html">S-Touch</a>
-          		<div class="nav-collapse collapse">
-          		</div>
-        	</div>
-     	</div>
-    	</div>
 	</div>
 	</body>
 </html>
