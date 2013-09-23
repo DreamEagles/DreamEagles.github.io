@@ -17,6 +17,29 @@
   width:65em;
 }
 
+.dev-post{
+  text-align: left;
+  margin-right: 10em; 
+  margin-left: 10em;
+  border-radius: 1em;
+  border-style: solid;
+  background-color: #EDE0F6;
+  margin-bottom: 15em;
+
+}
+
+.dev-post p{
+  font-size: 21px;
+}
+
+.main-column{
+  background-color: #6A348E;
+  margin-right: 5em;
+  margin-left: 5em;
+  box-shadow: 0px 10px 0px #888888;
+  
+}
+
 .footer {
 
 }
